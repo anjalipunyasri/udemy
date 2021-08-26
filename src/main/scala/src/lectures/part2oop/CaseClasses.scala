@@ -8,7 +8,7 @@ object CaseClasses extends App{
   case class Person(name:String,age : Int)
 
   //1.class parameters are fields
-  val jim = new Person ("Jim", 23)
+  val jim = new Person (" Jim", 23)
   println(jim.name)
 
   //2.sensible toString
